@@ -1,0 +1,105 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/$CACHE_FILE$
+* .idea/WizarViewAgentAssistant.iml
+* .idea/codeStyles/
+* .idea/codeStyles/Project.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ant.properties
+* build.xml
+* changelog.txt
+* docs/
+* docs/NetworkAccessController.java
+* docs/Readme.txt
+* docs/RuleItem.java
+* docs/iptables.txt
+* docs/iptables_docs/
+* docs/iptables_docs/iptables测试
+* docs/iptables_docs/具体实施遇到的问题.txt
+* docs/iptables_docs/初始化命令
+* docs/iptables_docs/命令说明
+* docs/iptables_docs/接口定义说明.txt
+* docs/iptables_docs/数据库接口验证.txt
+* docs/iptables_interface.txt
+* docs/iptables结构说明.txt
+* docs/数据库设计.txt
+* docs/民生定制.txt
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* jni/ => app/src/main/jni/
+* libs/armeabi/libdpfj.so => app/src/main/jniLibs/armeabi/libdpfj.so
+* libs/armeabi/libdpfpdd.so => app/src/main/jniLibs/armeabi/libdpfpdd.so
+* libs/armeabi/libdpfpdd5000.so => app/src/main/jniLibs/armeabi/libdpfpdd5000.so
+* libs/armeabi/libdpfpdd7k.so => app/src/main/jniLibs/armeabi/libdpfpdd7k.so
+* libs/armeabi/libdpfpdd_4k.so => app/src/main/jniLibs/armeabi/libdpfpdd_4k.so
+* libs/armeabi/libdpfpdd_ptapi.so => app/src/main/jniLibs/armeabi/libdpfpdd_ptapi.so
+* libs/armeabi/libdpfr6.so => app/src/main/jniLibs/armeabi/libdpfr6.so
+* libs/armeabi/libdpfr7.so => app/src/main/jniLibs/armeabi/libdpfr7.so
+* libs/armeabi/libdpuareu_jni.so => app/src/main/jniLibs/armeabi/libdpuareu_jni.so
+* libs/armeabi/libjniPtapi.so => app/src/main/jniLibs/armeabi/libjniPtapi.so
+* libs/armeabi/libjni_cloudpos_iso_fingerprint.so => app/src/main/jniLibs/armeabi/libjni_cloudpos_iso_fingerprint.so
+* libs/armeabi/libtfm.so => app/src/main/jniLibs/armeabi/libtfm.so
+* libs/dpuareu.jar => app/libs/dpuareu.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/cloudpos/fingerprint/aidl/IFPHelper.aidl => app/src/main/aidl/com/cloudpos/fingerprint/aidl/IFPHelper.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/IAPNManagerService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IAPNManagerService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/IAgentService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IAgentService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/IModifyAdminPwdService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IModifyAdminPwdService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/INetworkManageService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/INetworkManageService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/IPatchTestService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IPatchTestService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/IPersistHelpService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IPersistHelpService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/IPosHomeFixService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IPosHomeFixService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/IScriptService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/IScriptService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/ISystemExtApi.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/ISystemExtApi.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/ISystemManagerService.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/ISystemManagerService.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/RuleItem.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/RuleItem.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/ScriptResult.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/ScriptResult.aidl
+* src/com/wizarpos/wizarviewagentassistant/aidl/TerminalStatus.aidl => app/src/main/aidl/com/wizarpos/wizarviewagentassistant/aidl/TerminalStatus.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
