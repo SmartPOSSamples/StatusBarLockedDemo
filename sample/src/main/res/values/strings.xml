@@ -4,7 +4,7 @@
 
     <string name="logcat_output">logcat output</string>
     <string name="logcat_clear">logcat clear</string>
-    <string name="interval_format_error">The format of interval-time is error!</string>
+    <string name="interval_format_error">The format of interval-time is incorrect!</string>
     <string name="introduction">Introduction\n Erase TK and MK</string>
 
     <string name="test_1">lock_Status_bar</string>
@@ -54,7 +54,7 @@
     <string name="set_password_api_dialog">Set screen lock password to</string>
     <string name="password_quality_category">Password quality</string>
     <string name="password_quality">Password quality</string>
-    <string name="password_minimum_length">Minimum length </string>
+    <string name="password_minimum_length">Minimum length</string>
     <string name="password_minimum_letters">Minimum letters</string>
     <string name="password_minimum_numeric">Minimum numeric</string>
     <string name="password_minimum_lower_case">Minimum lower case</string>
@@ -94,7 +94,7 @@
     <string name="status_device_encryption">Device encryption status=%1$s</string>
     <string name="status_days_hours_minutes">%1$sd %2$sh %3$sm</string>
     <string name="number_format_warning">Bad value \"%1$s\""</string>
-    <string name="wipe_warning_first">This will erase all of your data.  Are you sure?</string>
+    <string name="wipe_warning_first">This will erase all of your data. Are you sure?</string>
     <string name="wipe_warning_first_ok">Yes</string>
     <string name="wipe_warning_first_no">No</string>
     <string name="wipe_warning_second">This is not a test. This WILL erase all of your data!
