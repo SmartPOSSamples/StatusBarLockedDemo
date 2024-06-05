@@ -4,7 +4,7 @@
 
     <string name="logcat_output">logcat output</string>
     <string name="logcat_clear">logcat clear</string>
-    <string name="interval_format_error">The format of interval-time is error!</string>
+    <string name="interval_format_error">The format of interval-time is incorrect!</string>
     <string name="introduction">Introduction\n Erase TK and MK</string>
 
     <string name="test_1">lock_Status_bar</string>
